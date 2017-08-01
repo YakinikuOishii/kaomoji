@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593E01881F2FFD2C008D852B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01871F2FFD2C008D852B /* AppDelegate.swift */; };
+		593E018A1F2FFD2C008D852B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01891F2FFD2C008D852B /* ViewController.swift */; };
+		593E018D1F2FFD2C008D852B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593E018B1F2FFD2C008D852B /* Main.storyboard */; };
+		593E018F1F2FFD2C008D852B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593E018E1F2FFD2C008D852B /* Assets.xcassets */; };
+		593E01921F2FFD2C008D852B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593E01901F2FFD2C008D852B /* LaunchScreen.storyboard */; };
+		593E019D1F2FFD2C008D852B /* kaomojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E019C1F2FFD2C008D852B /* kaomojiTests.swift */; };
+		593E01A81F2FFD2C008D852B /* kaomojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01A71F2FFD2C008D852B /* kaomojiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		593E01991F2FFD2C008D852B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593E017C1F2FFD2C008D852B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593E01831F2FFD2C008D852B;
+			remoteInfo = kaomoji;
+		};
+		593E01A41F2FFD2C008D852B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 593E017C1F2FFD2C008D852B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593E01831F2FFD2C008D852B;
+			remoteInfo = kaomoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		593E01841F2FFD2C008D852B /* kaomoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaomoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593E01871F2FFD2C008D852B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593E01891F2FFD2C008D852B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		593E018C1F2FFD2C008D852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		593E018E1F2FFD2C008D852B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593E01911F2FFD2C008D852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		593E01931F2FFD2C008D852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593E01981F2FFD2C008D852B /* kaomojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaomojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593E019C1F2FFD2C008D852B /* kaomojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaomojiTests.swift; sourceTree = "<group>"; };
+		593E019E1F2FFD2C008D852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593E01A31F2FFD2C008D852B /* kaomojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaomojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593E01A71F2FFD2C008D852B /* kaomojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaomojiUITests.swift; sourceTree = "<group>"; };
+		593E01A91F2FFD2C008D852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593E01811F2FFD2C008D852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E01951F2FFD2C008D852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E01A01F2FFD2C008D852B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593E017B1F2FFD2C008D852B = {
+			isa = PBXGroup;
+			children = (
+				593E01861F2FFD2C008D852B /* kaomoji */,
+				593E019B1F2FFD2C008D852B /* kaomojiTests */,
+				593E01A61F2FFD2C008D852B /* kaomojiUITests */,
+				593E01851F2FFD2C008D852B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593E01851F2FFD2C008D852B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593E01841F2FFD2C008D852B /* kaomoji.app */,
+				593E01981F2FFD2C008D852B /* kaomojiTests.xctest */,
+				593E01A31F2FFD2C008D852B /* kaomojiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593E01861F2FFD2C008D852B /* kaomoji */ = {
+			isa = PBXGroup;
+			children = (
+				593E01871F2FFD2C008D852B /* AppDelegate.swift */,
+				593E01891F2FFD2C008D852B /* ViewController.swift */,
+				593E018B1F2FFD2C008D852B /* Main.storyboard */,
+				593E018E1F2FFD2C008D852B /* Assets.xcassets */,
+				593E01901F2FFD2C008D852B /* LaunchScreen.storyboard */,
+				593E01931F2FFD2C008D852B /* Info.plist */,
+			);
+			path = kaomoji;
+			sourceTree = "<group>";
+		};
+		593E019B1F2FFD2C008D852B /* kaomojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				593E019C1F2FFD2C008D852B /* kaomojiTests.swift */,
+				593E019E1F2FFD2C008D852B /* Info.plist */,
+			);
+			path = kaomojiTests;
+			sourceTree = "<group>";
+		};
+		593E01A61F2FFD2C008D852B /* kaomojiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				593E01A71F2FFD2C008D852B /* kaomojiUITests.swift */,
+				593E01A91F2FFD2C008D852B /* Info.plist */,
+			);
+			path = kaomojiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593E01831F2FFD2C008D852B /* kaomoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593E01AC1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomoji" */;
+			buildPhases = (
+				593E01801F2FFD2C008D852B /* Sources */,
+				593E01811F2FFD2C008D852B /* Frameworks */,
+				593E01821F2FFD2C008D852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaomoji;
+			productName = kaomoji;
+			productReference = 593E01841F2FFD2C008D852B /* kaomoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		593E01971F2FFD2C008D852B /* kaomojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593E01AF1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiTests" */;
+			buildPhases = (
+				593E01941F2FFD2C008D852B /* Sources */,
+				593E01951F2FFD2C008D852B /* Frameworks */,
+				593E01961F2FFD2C008D852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593E019A1F2FFD2C008D852B /* PBXTargetDependency */,
+			);
+			name = kaomojiTests;
+			productName = kaomojiTests;
+			productReference = 593E01981F2FFD2C008D852B /* kaomojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		593E01A21F2FFD2C008D852B /* kaomojiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593E01B21F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiUITests" */;
+			buildPhases = (
+				593E019F1F2FFD2C008D852B /* Sources */,
+				593E01A01F2FFD2C008D852B /* Frameworks */,
+				593E01A11F2FFD2C008D852B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593E01A51F2FFD2C008D852B /* PBXTargetDependency */,
+			);
+			name = kaomojiUITests;
+			productName = kaomojiUITests;
+			productReference = 593E01A31F2FFD2C008D852B /* kaomojiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593E017C1F2FFD2C008D852B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "笠原未来";
+				TargetAttributes = {
+					593E01831F2FFD2C008D852B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					593E01971F2FFD2C008D852B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 593E01831F2FFD2C008D852B;
+					};
+					593E01A21F2FFD2C008D852B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 593E01831F2FFD2C008D852B;
+					};
+				};
+			};
+			buildConfigurationList = 593E017F1F2FFD2C008D852B /* Build configuration list for PBXProject "kaomoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593E017B1F2FFD2C008D852B;
+			productRefGroup = 593E01851F2FFD2C008D852B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593E01831F2FFD2C008D852B /* kaomoji */,
+				593E01971F2FFD2C008D852B /* kaomojiTests */,
+				593E01A21F2FFD2C008D852B /* kaomojiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593E01821F2FFD2C008D852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593E01921F2FFD2C008D852B /* LaunchScreen.storyboard in Resources */,
+				593E018F1F2FFD2C008D852B /* Assets.xcassets in Resources */,
+				593E018D1F2FFD2C008D852B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E01961F2FFD2C008D852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E01A11F2FFD2C008D852B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593E01801F2FFD2C008D852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593E018A1F2FFD2C008D852B /* ViewController.swift in Sources */,
+				593E01881F2FFD2C008D852B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E01941F2FFD2C008D852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593E019D1F2FFD2C008D852B /* kaomojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		593E019F1F2FFD2C008D852B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593E01A81F2FFD2C008D852B /* kaomojiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		593E019A1F2FFD2C008D852B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593E01831F2FFD2C008D852B /* kaomoji */;
+			targetProxy = 593E01991F2FFD2C008D852B /* PBXContainerItemProxy */;
+		};
+		593E01A51F2FFD2C008D852B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 593E01831F2FFD2C008D852B /* kaomoji */;
+			targetProxy = 593E01A41F2FFD2C008D852B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		593E018B1F2FFD2C008D852B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593E018C1F2FFD2C008D852B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		593E01901F2FFD2C008D852B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593E01911F2FFD2C008D852B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593E01AA1F2FFD2C008D852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		593E01AB1F2FFD2C008D852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593E01AD1F2FFD2C008D852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaomoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		593E01AE1F2FFD2C008D852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kaomoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		593E01B01F2FFD2C008D852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaomojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaomoji.app/kaomoji";
+			};
+			name = Debug;
+		};
+		593E01B11F2FFD2C008D852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kaomojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaomoji.app/kaomoji";
+			};
+			name = Release;
+		};
+		593E01B31F2FFD2C008D852B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kaomojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kaomoji;
+			};
+			name = Debug;
+		};
+		593E01B41F2FFD2C008D852B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = kaomojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kaomoji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593E017F1F2FFD2C008D852B /* Build configuration list for PBXProject "kaomoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593E01AA1F2FFD2C008D852B /* Debug */,
+				593E01AB1F2FFD2C008D852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593E01AC1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593E01AD1F2FFD2C008D852B /* Debug */,
+				593E01AE1F2FFD2C008D852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593E01AF1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593E01B01F2FFD2C008D852B /* Debug */,
+				593E01B11F2FFD2C008D852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		593E01B21F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593E01B31F2FFD2C008D852B /* Debug */,
+				593E01B41F2FFD2C008D852B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593E017C1F2FFD2C008D852B /* Project object */;
+}
