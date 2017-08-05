@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1551840FD09FB922A324A0 /* Pods_kaomojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D063ACD4240958C32CC764D1 /* Pods_kaomojiUITests.framework */; };
+		2F140FF22182E17E87547D30 /* Pods_kaomojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0397E26F94F7E968A5CF2CF /* Pods_kaomojiTests.framework */; };
+		455DF682EEEA6A0FCCB394EF /* Pods_kaomoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB84D9C84E360B93DEA97B5 /* Pods_kaomoji.framework */; };
 		593E01881F2FFD2C008D852B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01871F2FFD2C008D852B /* AppDelegate.swift */; };
 		593E018A1F2FFD2C008D852B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01891F2FFD2C008D852B /* ViewController.swift */; };
 		593E018D1F2FFD2C008D852B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593E018B1F2FFD2C008D852B /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		593E01921F2FFD2C008D852B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593E01901F2FFD2C008D852B /* LaunchScreen.storyboard */; };
 		593E019D1F2FFD2C008D852B /* kaomojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E019C1F2FFD2C008D852B /* kaomojiTests.swift */; };
 		593E01A81F2FFD2C008D852B /* kaomojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593E01A71F2FFD2C008D852B /* kaomojiUITests.swift */; };
+		59904D391F300A870071E7E2 /* favoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59904D371F300A870071E7E2 /* favoriteViewController.swift */; };
+		59904D3A1F300A870071E7E2 /* kaomoji2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59904D381F300A870071E7E2 /* kaomoji2ViewController.swift */; };
+		59F0A93F1F3063B50043E3ED /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0A93D1F3063B50043E3ED /* ListTableViewCell.swift */; };
+		59F0A9401F3063B50043E3ED /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59F0A93E1F3063B50043E3ED /* ListTableViewCell.xib */; };
+		59F0A9421F358F340043E3ED /* make.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F0A9411F358F340043E3ED /* make.png */; };
+		59F0A9441F358F410043E3ED /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F0A9431F358F410043E3ED /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06341B547BF2BFA432CEFAE2 /* Pods-kaomojiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomojiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaomojiUITests/Pods-kaomojiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B15424A73BAA5EE95FA93F9 /* Pods-kaomoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaomoji/Pods-kaomoji.release.xcconfig"; sourceTree = "<group>"; };
 		593E01841F2FFD2C008D852B /* kaomoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaomoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		593E01871F2FFD2C008D852B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		593E01891F2FFD2C008D852B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		593E01A31F2FFD2C008D852B /* kaomojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaomojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		593E01A71F2FFD2C008D852B /* kaomojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaomojiUITests.swift; sourceTree = "<group>"; };
 		593E01A91F2FFD2C008D852B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59904D371F300A870071E7E2 /* favoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteViewController.swift; sourceTree = "<group>"; };
+		59904D381F300A870071E7E2 /* kaomoji2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kaomoji2ViewController.swift; sourceTree = "<group>"; };
+		59F0A93D1F3063B50043E3ED /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		59F0A93E1F3063B50043E3ED /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		59F0A9411F358F340043E3ED /* make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make.png; sourceTree = "<group>"; };
+		59F0A9431F358F410043E3ED /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		5E2C051C8BA193AF8350F868 /* Pods-kaomoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaomoji/Pods-kaomoji.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB84D9C84E360B93DEA97B5 /* Pods_kaomoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaomoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF46B5CDD61C9B6F7BE744F /* Pods-kaomojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomojiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaomojiUITests/Pods-kaomojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A12272C44F3F0E96DFD86922 /* Pods-kaomojiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomojiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaomojiTests/Pods-kaomojiTests.release.xcconfig"; sourceTree = "<group>"; };
+		C40B8D2B1669B453767C9FD3 /* Pods-kaomojiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaomojiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaomojiTests/Pods-kaomojiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0397E26F94F7E968A5CF2CF /* Pods_kaomojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaomojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D063ACD4240958C32CC764D1 /* Pods_kaomojiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaomojiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455DF682EEEA6A0FCCB394EF /* Pods_kaomoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F140FF22182E17E87547D30 /* Pods_kaomojiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1551840FD09FB922A324A0 /* Pods_kaomojiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38271503B58F1B3CD03B8D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB84D9C84E360B93DEA97B5 /* Pods_kaomoji.framework */,
+				D0397E26F94F7E968A5CF2CF /* Pods_kaomojiTests.framework */,
+				D063ACD4240958C32CC764D1 /* Pods_kaomojiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		593E017B1F2FFD2C008D852B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				593E019B1F2FFD2C008D852B /* kaomojiTests */,
 				593E01A61F2FFD2C008D852B /* kaomojiUITests */,
 				593E01851F2FFD2C008D852B /* Products */,
+				6E0155B0C9346E4F51C55D0E /* Pods */,
+				38271503B58F1B3CD03B8D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +136,14 @@
 		593E01861F2FFD2C008D852B /* kaomoji */ = {
 			isa = PBXGroup;
 			children = (
+				59F0A9431F358F410043E3ED /* star.png */,
+				59F0A9411F358F340043E3ED /* make.png */,
 				593E01871F2FFD2C008D852B /* AppDelegate.swift */,
 				593E01891F2FFD2C008D852B /* ViewController.swift */,
+				59904D381F300A870071E7E2 /* kaomoji2ViewController.swift */,
+				59904D371F300A870071E7E2 /* favoriteViewController.swift */,
+				59F0A93D1F3063B50043E3ED /* ListTableViewCell.swift */,
+				59F0A93E1F3063B50043E3ED /* ListTableViewCell.xib */,
 				593E018B1F2FFD2C008D852B /* Main.storyboard */,
 				593E018E1F2FFD2C008D852B /* Assets.xcassets */,
 				593E01901F2FFD2C008D852B /* LaunchScreen.storyboard */,
@@ -125,6 +170,19 @@
 			path = kaomojiUITests;
 			sourceTree = "<group>";
 		};
+		6E0155B0C9346E4F51C55D0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2C051C8BA193AF8350F868 /* Pods-kaomoji.debug.xcconfig */,
+				1B15424A73BAA5EE95FA93F9 /* Pods-kaomoji.release.xcconfig */,
+				C40B8D2B1669B453767C9FD3 /* Pods-kaomojiTests.debug.xcconfig */,
+				A12272C44F3F0E96DFD86922 /* Pods-kaomojiTests.release.xcconfig */,
+				6FF46B5CDD61C9B6F7BE744F /* Pods-kaomojiUITests.debug.xcconfig */,
+				06341B547BF2BFA432CEFAE2 /* Pods-kaomojiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593E01AC1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomoji" */;
 			buildPhases = (
+				E895D1B91279C3F5CC115ABE /* [CP] Check Pods Manifest.lock */,
 				593E01801F2FFD2C008D852B /* Sources */,
 				593E01811F2FFD2C008D852B /* Frameworks */,
 				593E01821F2FFD2C008D852B /* Resources */,
+				B3B6E8F72A673862D29BD593 /* [CP] Embed Pods Frameworks */,
+				8E997823CE0B5BBC9B1DA2AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593E01AF1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiTests" */;
 			buildPhases = (
+				2D27D36E419F612EC8D404D0 /* [CP] Check Pods Manifest.lock */,
 				593E01941F2FFD2C008D852B /* Sources */,
 				593E01951F2FFD2C008D852B /* Frameworks */,
 				593E01961F2FFD2C008D852B /* Resources */,
+				AB338D304DFCDC22676E7228 /* [CP] Embed Pods Frameworks */,
+				B6D18CC98F07919EA3DB0F53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 593E01B21F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiUITests" */;
 			buildPhases = (
+				C035DEA606C193B05C2E5F4E /* [CP] Check Pods Manifest.lock */,
 				593E019F1F2FFD2C008D852B /* Sources */,
 				593E01A01F2FFD2C008D852B /* Frameworks */,
 				593E01A11F2FFD2C008D852B /* Resources */,
+				0F73AA7B4DF9F90D52B39352 /* [CP] Embed Pods Frameworks */,
+				F371C2928AE4631686CB3926 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +260,7 @@
 				TargetAttributes = {
 					593E01831F2FFD2C008D852B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQ44R4777H;
 						ProvisioningStyle = Automatic;
 					};
 					593E01971F2FFD2C008D852B = {
@@ -233,8 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				593E01921F2FFD2C008D852B /* LaunchScreen.storyboard in Resources */,
+				59F0A9421F358F340043E3ED /* make.png in Resources */,
+				59F0A9401F3063B50043E3ED /* ListTableViewCell.xib in Resources */,
 				593E018F1F2FFD2C008D852B /* Assets.xcassets in Resources */,
 				593E018D1F2FFD2C008D852B /* Main.storyboard in Resources */,
+				59F0A9441F358F410043E3ED /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +325,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F73AA7B4DF9F90D52B39352 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomojiUITests/Pods-kaomojiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D27D36E419F612EC8D404D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E997823CE0B5BBC9B1DA2AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomoji/Pods-kaomoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB338D304DFCDC22676E7228 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomojiTests/Pods-kaomojiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B6E8F72A673862D29BD593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomoji/Pods-kaomoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D18CC98F07919EA3DB0F53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomojiTests/Pods-kaomojiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C035DEA606C193B05C2E5F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E895D1B91279C3F5CC115ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F371C2928AE4631686CB3926 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaomojiUITests/Pods-kaomojiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		593E01801F2FFD2C008D852B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +470,9 @@
 			files = (
 				593E018A1F2FFD2C008D852B /* ViewController.swift in Sources */,
 				593E01881F2FFD2C008D852B /* AppDelegate.swift in Sources */,
+				59904D3A1F300A870071E7E2 /* kaomoji2ViewController.swift in Sources */,
+				59904D391F300A870071E7E2 /* favoriteViewController.swift in Sources */,
+				59F0A93F1F3063B50043E3ED /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +624,12 @@
 		};
 		593E01AD1F2FFD2C008D852B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2C051C8BA193AF8350F868 /* Pods-kaomoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQ44R4777H;
 				INFOPLIST_FILE = kaomoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +639,12 @@
 		};
 		593E01AE1F2FFD2C008D852B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B15424A73BAA5EE95FA93F9 /* Pods-kaomoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQ44R4777H;
 				INFOPLIST_FILE = kaomoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.kaomoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +654,7 @@
 		};
 		593E01B01F2FFD2C008D852B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40B8D2B1669B453767C9FD3 /* Pods-kaomojiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +669,7 @@
 		};
 		593E01B11F2FFD2C008D852B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A12272C44F3F0E96DFD86922 /* Pods-kaomojiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +684,7 @@
 		};
 		593E01B31F2FFD2C008D852B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF46B5CDD61C9B6F7BE744F /* Pods-kaomojiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = kaomojiUITests/Info.plist;
@@ -477,6 +698,7 @@
 		};
 		593E01B41F2FFD2C008D852B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06341B547BF2BFA432CEFAE2 /* Pods-kaomojiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = kaomojiUITests/Info.plist;
@@ -507,6 +729,7 @@
 				593E01AE1F2FFD2C008D852B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593E01AF1F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +738,7 @@
 				593E01B11F2FFD2C008D852B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		593E01B21F2FFD2C008D852B /* Build configuration list for PBXNativeTarget "kaomojiUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +747,7 @@
 				593E01B41F2FFD2C008D852B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

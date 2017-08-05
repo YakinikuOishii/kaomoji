@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  Kaomozi2ViewController.swift
 //  kaomozi
 //
-//  Created by 笠原未来 on 2017/06/27.
+//  Created by 笠原未来 on 2017/07/02.
 //  Copyright © 2017年 笠原未来. All rights reserved.
 //
 
@@ -10,14 +10,16 @@ import UIKit
 import BTNavigationDropdownMenu
 import Accounts
 
-class ViewController: UIViewController {
+class kaomoji2ViewController: UIViewController {
     
     var menuView: BTNavigationDropdownMenu!
     
     @IBOutlet var leftKaoLavel: UILabel!
+    @IBOutlet var leftPartsLabel: UILabel!
     @IBOutlet var leftEyeLabel: UILabel!
     @IBOutlet var kutiLabel: UILabel!
     @IBOutlet var rightEyeLabel: UILabel!
+    @IBOutlet var rightPartsLabel: UILabel!
     @IBOutlet var rightKaoLabel: UILabel!
     @IBOutlet var kanseiLabel: UILabel!
     
@@ -25,21 +27,23 @@ class ViewController: UIViewController {
     @IBOutlet var copyButton: UIButton!
     @IBOutlet var shareButton: UIButton!
     
-    var menuIndex: Int = 0
-    
-    @IBOutlet var save: UIButton!
+    @IBOutlet weak var save: UIButton!
     var kansei = String()
     
-    let leftEyeArray: [String] = ["^",">","`","★","'","T","・","°","δ","－"]
-    let kutiArray: [String] = ["v","A","X","=","o","-","８","ω","▼","p","ᴗ","エ","Д"]
-    let rightEyeArray: [String] = ["^","<","★","'","`","T","・","°","δ","－"]
+    var menuIndex: Int = 0
     
+    let leftPartsArray: [String] = ["⊃","∩","* ",";","∪"]
+    let leftEyeArray: [String] = ["^",">","`","★","'","T","・","°","δ","－"]
+    let kutiArray: [String] = ["v","A","X","=","o","-","８","ω","▼","p","ᴗ","⊥","Д"]
+    let rightEyeArray: [String] = ["^","<","★","'","`","T","・","°","δ","－"]
+    let rightPartsArray: [String] = ["⊂","∩","*"," ;","∪"]
+    
+    //足したたっティー
     var saveArray = [String]()
     let saveData = UserDefaults.standard
     
     var emotionArray = [Int]()
     let saveEmotion = UserDefaults.standard
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,19 +55,22 @@ class ViewController: UIViewController {
         kanseiLabel.layer.cornerRadius = 5.0
         kanseiLabel.clipsToBounds = true
         
-        //
+        //足したたっティー
         //        if saveData.object(forKey: "save") != nil {
-        //            saveArray = saveData.object(forKey: "save") as! [String]
+        //        saveArray = saveData.object(forKey: "save") as! [String]
+        //
         //        }else{
         //
         //        }
         //        print("\(saveArray)を読み込み")
-        let items = ["ランダム","笑い", "泣き", "怒り","驚き"]
+        
         //        let viewcontrollerArray = [ViewController.self,Kaomozi2ViewController.self]
         
         //let stroyboard: UIStoryboard = self.storyboard!
-        //let nextView = stroyboard.instantiateViewController(withIdentifier: "next") as! Kaomozi2ViewController
+        //let nextView = stroyboard.instantiateViewController(withIdentifier: "first") as! ViewController
         //        let nextView = stroyboard.instantiateViewController(withIdentifier: "next") as! Kaomozi2ViewController
+        
+        let items = ["ランダム","笑い", "泣き", "怒り","驚き"]
         
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0/255.0, green:188/255.0, blue:220/255.0, alpha: 1.0)
@@ -110,7 +117,6 @@ class ViewController: UIViewController {
                 self.save.backgroundColor = rgba
                 self.shareButton.backgroundColor = rgba
                 
-                
             }else if indexPath == 2{
                 self.menuIndex = 2
                 
@@ -151,10 +157,13 @@ class ViewController: UIViewController {
                 self.shareButton.backgroundColor = rgba4
                 
             }
+
             
             // Do any additional setup after loading the view, typically from a nib.
         }
         self.navigationItem.titleView = menuView
+        
+        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -164,15 +173,14 @@ class ViewController: UIViewController {
         }else{
             
         }
-        print("\(saveArray)を読み込み1")
+        print("\(saveArray)を読み込み2")
         
         if saveEmotion.object(forKey: "emotion") != nil {
             emotionArray = saveEmotion.object(forKey: "emotion") as! [Int]
         }else{
             
         }
-        print("\(emotionArray)を読み込み1表情")
-        
+        print("\(emotionArray)を読み込み2表情")
     }
     
     override func didReceiveMemoryWarning() {
@@ -182,36 +190,40 @@ class ViewController: UIViewController {
     
     @IBAction func create() {
         
+        let leftPartsIndex = Int(arc4random_uniform(5))
         let leftEyeIndex = Int(arc4random_uniform(10))
         let kutiIndex = Int(arc4random_uniform(13))
         let rightEyeIndex = Int(arc4random_uniform(10))
+        let rightPartsIndex = Int(arc4random_uniform(5))
         
+        leftPartsLabel.text = leftPartsArray[leftPartsIndex]
         leftEyeLabel.text = leftEyeArray[leftEyeIndex]
         kutiLabel.text = kutiArray[kutiIndex]
         rightEyeLabel.text = rightEyeArray[rightEyeIndex]
+        rightPartsLabel.text = rightPartsArray[rightPartsIndex]
         
         if menuIndex == 1 {
             rightEyeLabel.text = String("^")
             leftEyeLabel.text = String("^")
-            kansei = "( " + "^" + " " + kutiArray[kutiIndex] + " " + "^" + " )"
+            kansei = "( " + leftPartsArray[leftPartsIndex] + " " + "^" + " " + kutiArray[kutiIndex] + " " + "^" + " " + rightPartsArray[rightPartsIndex] + " )"
         }else if menuIndex == 2 {
             rightEyeLabel.text = String("T")
             leftEyeLabel.text = String("T")
-            kansei = "( " + "T" + " " + kutiArray[kutiIndex] + " " + "T" + " )"
+            kansei = "( " + leftPartsArray[leftPartsIndex] + " " + "T" + " " + kutiArray[kutiIndex] + " " + "T" + " " + rightPartsArray[rightPartsIndex] + " )"
         }else if menuIndex == 3{
             rightEyeLabel.text = String("´")
             leftEyeLabel.text = String("｀")
-            kansei = "( " + "`" + " " + kutiArray[kutiIndex] + " " + "´" + " )"
+            kansei = "( " + leftPartsArray[leftPartsIndex] + " " + "`" + " " + kutiArray[kutiIndex] + " " + "´" + " " + rightPartsArray[rightPartsIndex] + " )"
         }else if menuIndex == 4 {
+            rightEyeLabel.text = String("°")
+            leftEyeLabel.text = String("°")
             kutiLabel.text = String("A")
-            kansei = "( " + leftEyeArray[leftEyeIndex] + " " + "A" + " " + rightEyeArray[rightEyeIndex] + " )"
+            kansei = "( " + leftPartsArray[leftPartsIndex] + " " + "°" + " " + "A" + " " + "°" + " " + rightPartsArray[rightPartsIndex] + " )"
             
-        }else if menuIndex == 0{
-            leftEyeLabel.text = leftEyeArray[leftEyeIndex]
-            kutiLabel.text = kutiArray[kutiIndex]
-            rightEyeLabel.text = rightEyeArray[rightEyeIndex]
-            kansei = "( " + leftEyeArray[leftEyeIndex] + " " + kutiArray[kutiIndex] + " " + rightEyeArray[rightEyeIndex] + " )"
+        }else{
+            kansei = "( " + leftPartsArray[leftPartsIndex] + " " + leftEyeArray[leftEyeIndex] + " " + kutiArray[kutiIndex] + " " + rightEyeArray[rightEyeIndex] + " " + rightPartsArray[rightPartsIndex] + " )"
         }
+        
         
         kanseiLabel.text = String(kansei)
         
@@ -258,9 +270,13 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func saveKaomoji() {
+    
+    //足したたっティー
+    
+    @IBAction func savekaomozi(){
+        // appendしてから保存しないと、今までのデータに上書きされて前のデータが消えてしまう
         saveArray.append(kansei)
-        saveData.set(saveArray, forKey: "save")
+        saveData.set(saveArray, forKey:"save")
         
         emotionArray.append(menuIndex)
         saveEmotion.set(emotionArray, forKey: "emotion")
@@ -276,20 +292,19 @@ class ViewController: UIViewController {
             )
         )
         present(alert,animated: true, completion: nil)
+        
         print("\(saveArray)を追加")
     }
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
-
-
-//import UIKit
-//
-//class ViewController: UIViewController {
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//    }
-//    
-//    override func didReceiveMemoryWarning() {
-//                super.didReceiveMemoryWarning()
-//                // Dispose of any resources that can be recreated.
-//            }
-//}
