@@ -39,9 +39,6 @@ class favoriteViewController: UIViewController, UITableViewDataSource ,UITabBarD
     
     var menuIndex: Int = 0
     
-//    var touchCount: Int = 0
-    
-//    let saveCount = UserDefaults.standard
     
     
     override func viewDidLoad() {
@@ -50,35 +47,16 @@ class favoriteViewController: UIViewController, UITableViewDataSource ,UITabBarD
         table.delegate = self
         table.dataSource = self
         
-        //        if saveData.object(forKey: "save") != nil {
-        //            saveArray = saveData.object(forKey: "save") as! [String]
-        //        }else{
-        //
-        //        }
-        //
-        
         table.register(UINib(nibName: "ListTableViewCell", bundle: nil),forCellReuseIdentifier: "cell")
         
-        // 空のビューを設定する
-        self.table.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0.1, height:0.1))
-        
         let items = ["新着順", "古い順","笑い","泣き","怒り","驚き"]
-        
-        //        let viewcontrollerArray = [ViewController.self,Kaomozi2ViewController.self]
-        // let stroyboard: UIStoryboard = self.storyboard!
-        // let nextView = stroyboard.instantiateViewController(withIdentifier: "first") as! ViewController
-        //        let nextView = stroyboard.instantiateViewController(withIdentifier: "next") as! Kaomozi2ViewController
         
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0/255.0, green:188/255.0, blue:220/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         
-//        // NaviagtionBarの高さを指定したい
-//        let height: CGFloat = 40
-//        let bounds = self.navigationController!.navigationBar.bounds
-//        self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
-        
-        menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: "並び替え", items: items as [AnyObject])
+
+        menuView = BTNavigationDropdownMenu(navigationController: self.navigationController, containerView: self.navigationController!.view, title: "並び替え", items: items )
         
         menuView.cellHeight = 50
         menuView.cellBackgroundColor = self.navigationController?.navigationBar.barTintColor
@@ -176,7 +154,7 @@ class favoriteViewController: UIViewController, UITableViewDataSource ,UITabBarD
             print("else")
         }
         menuIndex = 0
-        menuView.
+        menuView.setSelected(index: 0)
         table.reloadData()
         print("\(emotionArray)を読み込み3表情")
         
